@@ -2,7 +2,6 @@ import "./categoryItem.styles.scss";
 
 const CategoryItem = ({ category }) => {
   const { title, imageUrl } = category;
-  console.log("by AD imageUrl ", imageUrl);
   return (
     <div className="category-container">
       <div
